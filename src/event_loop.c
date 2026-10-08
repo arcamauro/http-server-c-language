@@ -27,6 +27,7 @@ int event_loop_run(int sockfd) {
         return -1;
     }
     printf("Server started correctly. \n");
+    fflush(stdout);
     if (setup_signal_handler() == -1) {
         perror("Error setting up signal handler.");
         exit(EXIT_FAILURE);

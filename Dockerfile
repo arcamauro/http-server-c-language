@@ -1,6 +1,6 @@
 FROM gcc:latest
 
-RUN apt-get update && apt-get install -y cmake make gdb
+RUN apt-get update && apt-get install -y make
 
 WORKDIR /http-server-c-language
 
