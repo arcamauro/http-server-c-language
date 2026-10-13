@@ -1,7 +1,7 @@
 # HTTP server in C
 
 ## Introduction
-A lightweight Linux HTTP server using nonblocking sockets and `epoll`. It features graceful shutdown and Dynamic Static File Resolution.
+A lightweight Linux HTTP server using nonblocking sockets and `epoll`. It features graceful shutdown and Zero-Copy Static File Delivery.
 
 ## Architecture
 ```ascii
